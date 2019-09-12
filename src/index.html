@@ -7,26 +7,28 @@
     <title>HW-12 Fetch</title>
   </head>
   <body>
-    <form class="search-form" id="search-form">
-      <input type="text" name="city" placeholder="Enter city name..." />
-      <button type="submit">Get weather</button>
-    </form>
+    <div class="container">
+      <form class="search-form" id="search-form">
+        <input type="text" name="city" placeholder="Enter city name..." />
+        <button type="submit">Get weather</button>
+      </form>
 
-    <section class="weather is-hidden" id="weather"></section>
+      <section class="weather is-hidden" id="weather"></section>
 
-    <p class="credit">
-      Powered by
-      <a
-        href="https://www.apixu.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Weather API"
-        >Apixu.com</a
-      >
-    </p>
+      <p class="credit">
+        Powered by
+        <a
+          href="https://www.apixu.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Weather API"
+          >Apixu.com</a
+        >
+      </p>
+    </div>
+
     <div class="wrap-spinner is-hidden" id="spinner">
       <div class="loader ">Loading...</div>
     </div>
-
   </body>
 </html>
