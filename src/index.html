@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HW-12 Fetch</title>
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" /> -->
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <title>Weather</title>
   </head>
   <body>
     <div class="container">
       <form class="search-form" id="search-form">
-        <input type="text" name="city" placeholder="Enter city name..." />
-        <button type="submit">Get weather</button>
+        <input
+          class="input-city"
+          type="text"
+          name="city"
+          placeholder="Enter city name..."
+        />
+        <button class="btn-send" type="submit">Get weather</button>
       </form>
 
       <section class="weather is-hidden" id="weather"></section>

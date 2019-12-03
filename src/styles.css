@@ -46,9 +46,16 @@ body {
 }
 .search-form {
   display: flex;
-  flex-direction: column;
+  
   padding: 15px;
 }
+.input-city {
+  width: 65%;
+}
+.btn-send {
+  width: 35%;
+}
+
 .title {
   padding-top: 20px;
   margin: 0;
@@ -57,7 +64,6 @@ body {
 .icon {
   display: block;
   margin: 0 auto;
-
 }
 .info-weather {
   padding: 0 25px;
