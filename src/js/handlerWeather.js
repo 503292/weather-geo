@@ -11,7 +11,7 @@ export default function handlerWeather(event) {
   fetchWeather(submitValue)
     .then(submitData => {
       fetchWeather(submitData);
-      // console.log(submitData);
+      console.log(submitData);
     })
     .catch(error => {
       PNotify.error({
