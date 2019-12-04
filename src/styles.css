@@ -18,6 +18,7 @@ html {
   box-sizing: border-box;
   width: 100vw;
   overflow-x: hidden;
+  background-image: url('./images/bg-pattern.png');
 }
 
 *,
@@ -46,7 +47,7 @@ body {
 }
 .search-form {
   display: flex;
-  
+
   padding: 15px;
 }
 .input-city {
@@ -68,7 +69,6 @@ body {
 .info-weather {
   padding: 0 25px;
 }
-
 
 .credit {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
